@@ -3,21 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Api", "GymManagement.Api\GymManagement.Api.csproj", "{878DB1B2-28D6-4C25-960C-28FC6E688018}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagement.Api", "GymManagement.Api\GymManagement.Api.csproj", "{878DB1B2-28D6-4C25-960C-28FC6E688018}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Application", "GymManagement.Application\GymManagement.Application.csproj", "{97B15742-2CFC-4B12-86E8-F95298178D8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagement.Application", "GymManagement.Application\GymManagement.Application.csproj", "{97B15742-2CFC-4B12-86E8-F95298178D8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Domain", "GymManagement.Domain\GymManagement.Domain.csproj", "{B14E9DB4-22E2-407E-AE20-83987711F3E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagement.Domain", "GymManagement.Domain\GymManagement.Domain.csproj", "{B14E9DB4-22E2-407E-AE20-83987711F3E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Infraestructure", "GymManagement.Infraestructure\GymManagement.Infraestructure.csproj", "{9A465E9D-B00E-4D6B-999F-95572AD8888D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagement.Infraestructure", "GymManagement.Infraestructure\GymManagement.Infraestructure.csproj", "{9A465E9D-B00E-4D6B-999F-95572AD8888D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagment.Contracts", "GymManagment.Contracts\GymManagment.Contracts.csproj", "{B41490B7-C40B-4E20-A581-F7EF564C292C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{878DB1B2-28D6-4C25-960C-28FC6E688018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +35,12 @@ Global
 		{9A465E9D-B00E-4D6B-999F-95572AD8888D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A465E9D-B00E-4D6B-999F-95572AD8888D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A465E9D-B00E-4D6B-999F-95572AD8888D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B41490B7-C40B-4E20-A581-F7EF564C292C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41490B7-C40B-4E20-A581-F7EF564C292C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41490B7-C40B-4E20-A581-F7EF564C292C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41490B7-C40B-4E20-A581-F7EF564C292C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
